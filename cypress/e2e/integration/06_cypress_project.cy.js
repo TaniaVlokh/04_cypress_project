@@ -3,7 +3,7 @@
 import ToDoList from "../../pages/ToDoList"
 
 const toDoList = new ToDoList();
-describe('Project 06', () => {
+describe('Project 06', {tags:smoke},() => {
 
 
 beforeEach(() => {
